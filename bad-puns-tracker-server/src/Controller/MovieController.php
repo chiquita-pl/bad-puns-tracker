@@ -79,6 +79,30 @@ class MovieController extends ApiController
     }
 
     /**
+     * @Route("/movies/{id}/countdown", methods="POST")
+     */
+    public function decreaseCount($id, EntityManagerInterface $em, MovieRepository $movieRepository)
+    {
+        if (! $this->isAuthorized()) {
+            return $this->respondUnauthorized();
+        }
+
+        $movie = $movieRepository->find($id);
+
+        if (! $movie) {
+            return $this->respondNotFound();
+        }
+
+        $movie->setCount($movie->getCount() - 1);
+        $em->persist($movie);
+        $em->flush();
+
+        return $this->respond([
+            'count' => $movie->getCount()
+        ]);
+    }
+
+    /**
      * @Route("/movies/{id}")
      * @Method("GET")
      */
