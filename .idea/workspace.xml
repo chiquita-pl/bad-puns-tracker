@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04382e6-4129-4658-affe-1cc16f0efdad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bad-puns-tracker-client/src/components/Dashboard.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bad-puns-tracker-client/src/components/MovieForm.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bad-puns-tracker-client/src/components/MoviesList.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bad-puns-tracker-server/src/Controller/ApiController.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bad-puns-tracker-server/src/Controller/MovieController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-puns-tracker-client" beforeDir="false" afterPath="$PROJECT_DIR$/bad-puns-tracker-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-puns-tracker-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/bad-puns-tracker-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-puns-tracker-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/bad-puns-tracker-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-puns-tracker-client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bad-puns-tracker-client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-puns-tracker-client/src/components/HelloWorld.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bad-puns-tracker-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/bad-puns-tracker-client/src/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bad-puns-tracker-server/src/Controller/ApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1853">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="561">
+              <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
               <folding>
                 <element signature="e#33#78#0#PHP" expanded="true" />
               </folding>
@@ -106,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/bad-puns-tracker-client/src/components/Dashboard.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding>
                 <element signature="e#849#880#0" expanded="true" />
               </folding>
@@ -114,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bad-puns-tracker-client/babel.config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -165,7 +156,8 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bad-puns-tracker-client" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bad-puns-tracker-server" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -365,18 +357,17 @@
       <workItem from="1587541518296" duration="1838000" />
       <workItem from="1587544763597" duration="3655000" />
       <workItem from="1587558279829" duration="8822000" />
-      <workItem from="1587632962183" duration="6770000" />
+      <workItem from="1587632962183" duration="8082000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44732000" />
+    <option name="totallyTimeSpent" value="46044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4375" y="0" width="1517" height="1118" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40150994" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.40150994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,7 +379,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32997987" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3326572" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3326572" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32997987" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32994923" />
@@ -672,16 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bad-puns-tracker-server/src/Controller/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1853">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="e#33#78#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bad-puns-tracker-server/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -715,7 +696,7 @@
     <entry file="file://$PROJECT_DIR$/bad-puns-tracker-client/src/components/Dashboard.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="e#849#880#0" expanded="true" />
           </folding>
@@ -725,7 +706,17 @@
     <entry file="file://$PROJECT_DIR$/bad-puns-tracker-client/babel.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bad-puns-tracker-server/src/Controller/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="168" column="29" selection-start-line="168" selection-start-column="29" selection-end-line="168" selection-end-column="29" />
+          <folding>
+            <element signature="e#33#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
