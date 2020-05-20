@@ -1,11 +1,13 @@
 version: '2'
 services:
-    postgres:
-        image: postgres
+    mysql:
+        image: mysql
         ports:
             - '5433:5432'
         environment:
-            - POSTGRES_PASSWORD=temppass123
+            - MYSQL_ROOT_PASSWORD=temppass123
+        volumes:
+            - .docker/setup.sql:/docker-entrypoint-initdb.d/setup.sql
     php:
         build: php-fpm
         ports:
@@ -14,11 +16,11 @@ services:
             - ../:/var/www/symfony:cached
             - ./logs/symfony:/var/www/symfony/var/logs:cached
         links:
-            - postgres
+            - mysql
     nginx:
         build: nginx
         ports:
-            - '8080:80'
+            - '8000:80'
         links:
             - php
         volumes_from:
