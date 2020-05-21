@@ -1,0 +1,37 @@
+version: '2'
+services:
+    mysql:
+        image: mysql
+        ports:
+            - '5433:5432'
+        environment:
+            - MYSQL_ROOT_PASSWORD=temppass123
+        volumes:
+            - .docker/setup.sql:/docker-entrypoint-initdb.d/setup.sql
+    php:
+        build: bad-puns-tracker-server/docker/php-fpm
+        ports:
+            - '9002:9000'
+        volumes:
+            - ./bad-puns-tracker-server/:/var/www/symfony:cached
+            - ./bad-puns-tracker-server/docker/logs/symfony:/var/www/symfony/var/logs:cached
+        links:
+            - mysql
+    nginx:
+        build: bad-puns-tracker-server/docker/nginx
+        ports:
+            - '8000:80'
+        links:
+            - php
+        volumes_from:
+            - php
+        volumes:
+            - ./bad-puns-tracker-server/docker/logs/nginx/:/var/log/nginx:cached
+    client:
+        build: ./bad-puns-tracker-client
+        volumes: 
+            - ./bad-puns-tracker-client:/app
+            - /app/node_modules
+        ports:
+            - '8080:8080'
+
