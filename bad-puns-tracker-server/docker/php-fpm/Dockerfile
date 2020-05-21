@@ -8,7 +8,6 @@ RUN apt-get install -y libgmp-dev libgmp3-dev
 RUN apt-get install -y zlib1g-dev libpq-dev git libicu-dev libxml2-dev \
     && docker-php-ext-configure intl \
     && docker-php-ext-install intl \
-#    && docker-php-ext-configure mysqli -with-mysqli=/usr/local/mysqli \
     && docker-php-ext-install pdo pdo_mysql \
     && docker-php-ext-install mysqli && docker-php-ext-enable mysqli \
     && docker-php-ext-install zip xml \
